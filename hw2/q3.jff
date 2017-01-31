@@ -38,24 +38,28 @@
 		</state>
 		<!--The list of transitions.-->
 		<transition>
-			<from>6</from>
-			<to>5</to>
+			<from>2</from>
+			<to>4</to>
+			<controlx>434</controlx>
+			<controly>163</controly>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>6</to>
 			<read>0</read>
 		</transition>
 		<transition>
 			<from>5</from>
-			<to>2</to>
-			<read>1</read>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>5</to>
+			<to>0</to>
 			<read>1</read>
 		</transition>
 		<transition>
 			<from>1</from>
-			<to>2</to>
-			<read>0</read>
+			<to>4</to>
+			<controlx>343</controlx>
+			<controly>229</controly>
+			<read>1</read>
 		</transition>
 		<transition>
 			<from>0</from>
@@ -64,13 +68,40 @@
 		</transition>
 		<transition>
 			<from>6</from>
-			<to>1</to>
+			<to>0</to>
+			<controlx>388</controlx>
+			<controly>210</controly>
 			<read>1</read>
 		</transition>
 		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>7</to>
+			<read>0</read>
+		</transition>
+		<transition>
 			<from>1</from>
-			<to>6</to>
+			<to>2</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>7</to>
 			<read>1</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>3</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>5</to>
+			<read>0</read>
 		</transition>
 		<transition>
 			<from>5</from>
@@ -81,31 +112,6 @@
 			<from>0</from>
 			<to>4</to>
 			<read>1</read>
-		</transition>
-		<transition>
-			<from>4</from>
-			<to>6</to>
-			<read>0</read>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>7</to>
-			<read>1</read>
-		</transition>
-		<transition>
-			<from>7</from>
-			<to>3</to>
-			<read>1</read>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>3</to>
-			<read>0</read>
-		</transition>
-		<transition>
-			<from>7</from>
-			<to>7</to>
-			<read>0</read>
 		</transition>
 		<transition>
 			<from>4</from>
