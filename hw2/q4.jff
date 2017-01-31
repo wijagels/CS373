@@ -6,10 +6,12 @@
 			<x>144.0</x>
 			<y>193.0</y>
 			<initial/>
+			<final/>
 		</state>
 		<state id="1" name="q1">
 			<x>231.0</x>
 			<y>193.0</y>
+			<final/>
 		</state>
 		<state id="2" name="q2">
 			<x>317.0</x>
@@ -36,17 +38,32 @@
 			<read>1</read>
 		</transition>
 		<transition>
-			<from>2</from>
-			<to>3</to>
-			<read>1</read>
-		</transition>
-		<transition>
 			<from>1</from>
 			<to>4</to>
 			<read>0</read>
 		</transition>
 		<transition>
 			<from>2</from>
+			<to>4</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>3</from>
 			<to>4</to>
 			<read>0</read>
 		</transition>
@@ -59,21 +76,6 @@
 			<from>0</from>
 			<to>4</to>
 			<read>0</read>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>4</to>
-			<read>0</read>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>4</to>
-			<read>1</read>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>2</to>
-			<read>1</read>
 		</transition>
 	</automaton>
 </structure>
