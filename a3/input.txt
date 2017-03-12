@@ -1,0 +1,16 @@
+abab#abab#abab reject
+baba#baba#baba reject
+abba#aaba#aabb reject
+baab#bbab#bbaa reject
+a#a#a reject
+b#b#b reject
+a#a#b accept
+b#a#a accept
+a#b#a accept
+aaa#a#a accept
+a#aaa#a accept
+a#a#aaa accept
+aaa#aaa#aaa reject
+aaaaaaaaaaaaaaaaaaaaaaa#aaaaa#aaaaa accept
+aaaaa#aaaaaaaaaaaaaaaaaaaaaaa#aaaaa accept
+aaaaa#aaaaa#aaaaaaaaaaaaaaaaaaaaaaa accept
